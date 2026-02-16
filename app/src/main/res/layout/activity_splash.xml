@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/splash_gradient_background">
 
-
+    <!-- Center Content -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -12,49 +12,35 @@
         android:orientation="vertical"
         android:gravity="center">
 
-
         <TextView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:background="@drawable/splash_circle"
-            android:text="📰 "
-            android:textSize="60sp"
-            android:gravity="center"
-            android:layout_marginBottom="30dp" />
-
-
-        <TextView
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Articles App"
-            android:textSize="36sp"
-            android:textColor="#FFFFFF"
+            android:text="ARTICLES"
+            android:textSize="42sp"
             android:textStyle="bold"
-            android:fontFamily="sans-serif-medium"
-            android:shadowColor="#000000"
-            android:shadowRadius="5"
-            android:shadowDx="2"
-            android:shadowDy="2" />
-
+            android:textColor="#FFFFFF"
+            android:letterSpacing="0.15"
+            android:fontFamily="sans-serif-medium" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Read • Learn • Discover"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textColor="#E3F2FD"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="12dp"
             android:letterSpacing="0.1" />
 
     </LinearLayout>
 
-
+    <!-- Bottom Loading Section -->
     <LinearLayout
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="70dp"
         android:orientation="vertical"
         android:gravity="center">
 
@@ -63,15 +49,15 @@
             android:layout_height="wrap_content"
             android:text="Loading..."
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            android:layout_marginBottom="15dp" />
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
 
         <ProgressBar
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             style="?android:attr/progressBarStyleHorizontal"
             android:indeterminate="true"
-            android:progressTint="#FFFFFF" />
+            android:progressTint="#FFFFFF"/>
 
     </LinearLayout>
 
