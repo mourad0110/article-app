@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Articles" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/purple_500</item>
+    </style>
+
+    <!-- Enhanced Splash Screen Theme -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_gradient_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/splash_primary</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+</resources>
